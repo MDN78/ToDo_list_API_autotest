@@ -5,8 +5,10 @@
 
 
 
-main site:<br/>
+1. General site:<br/>
 https://sky-todo-list.herokuapp.com/
 
-API site:<br/>
+2. API site:<br/>
 https://todo-app-sky.herokuapp.com/
+
+3. Start test in terminal:<br/>```python -m pytest -s -v```
