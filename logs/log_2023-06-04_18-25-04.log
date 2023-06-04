@@ -1,0 +1,78 @@
+
+-----
+Test: tests/test_todo_api.py::Test_create_task::test_create_new_task (call)
+Time: 2023-06-04 18:25:04.724871
+Request method: POST
+Request URL: https://todo-app-sky.herokuapp.com/
+
+Response code: 201
+Response text: {"id":80073,"title":"API Autotest_2","completed":false,"order":null,"url":"/80073"}
+Response headers: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '83', 'Date': 'Sun, 04 Jun 2023 15:25:06 GMT', 'Via': '1.1 vegur'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_todo_api.py::Test_create_task::test_create_new_task (call)
+Time: 2023-06-04 18:25:05.156447
+Request method: GET
+Request URL: https://todo-app-sky.herokuapp.com/80073
+
+Response code: 200
+Response text: {"id":80073,"title":"API Autotest_2","completed":false,"order":null,"url":"/80073"}
+Response headers: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '83', 'Date': 'Sun, 04 Jun 2023 15:25:06 GMT', 'Via': '1.1 vegur'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_todo_api.py::Test_create_task::test_create_new_task (call)
+Time: 2023-06-04 18:25:05.514255
+Request method: PATCH
+Request URL: https://todo-app-sky.herokuapp.com/80073
+
+Response code: 200
+Response text: {"id":80073,"title":"API Autotest_2","completed":true,"order":null,"url":"/80073"}
+Response headers: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '82', 'Date': 'Sun, 04 Jun 2023 15:25:06 GMT', 'Via': '1.1 vegur'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_todo_api.py::Test_create_task::test_create_new_task (call)
+Time: 2023-06-04 18:25:05.810971
+Request method: GET
+Request URL: https://todo-app-sky.herokuapp.com/80073
+
+Response code: 200
+Response text: {"id":80073,"title":"API Autotest_2","completed":true,"order":null,"url":"/80073"}
+Response headers: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '82', 'Date': 'Sun, 04 Jun 2023 15:25:07 GMT', 'Via': '1.1 vegur'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_todo_api.py::Test_create_task::test_create_new_task (call)
+Time: 2023-06-04 18:25:06.168320
+Request method: DELETE
+Request URL: https://todo-app-sky.herokuapp.com/80073
+
+Response code: 204
+Response text: 
+Response headers: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '2', 'Date': 'Sun, 04 Jun 2023 15:25:07 GMT', 'Via': '1.1 vegur'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_todo_api.py::Test_create_task::test_create_new_task (call)
+Time: 2023-06-04 18:25:06.527013
+Request method: GET
+Request URL: https://todo-app-sky.herokuapp.com/80073
+
+Response code: 404
+Response text: {"status":404,"message":"Todo with identifier '80073'' does not exist."}
+Response headers: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '72', 'Date': 'Sun, 04 Jun 2023 15:25:07 GMT', 'Via': '1.1 vegur'}
+Response cookies: {}
+
+-----
